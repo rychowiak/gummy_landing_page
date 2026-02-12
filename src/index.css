@@ -32,7 +32,7 @@
 
 @layer base {
   html {
-    @apply bg-white;
+    @apply bg-white overflow-x-hidden;
   }
 
   body {
@@ -114,9 +114,9 @@
     @apply text-[14px] font-semibold leading-4.5 tracking-[0.03em];
   }
 
-  /* .small-2 {
-    @apply text-[12px] font-bold leading-[16px] tracking-[0.3em];
-  } */
+  .small-2 {
+    @apply text-[12px] font-bold leading-4 tracking-[0.3em];
+  }
 
   .small-compact {
     @apply text-[12px] font-semibold leading-4.5 tracking-[0.03em];
@@ -204,7 +204,7 @@
   /* END of Header */
   /* START of Hero */
   .hero-img_res {
-    @apply max-lg:-top-40 max-lg:left-[calc(50%-280px)] max-lg:w-290 max-md:bottom-147.5 max-md:left-[calc(50%-390px)] max-md:top-auto;
+    @apply max-lg:-top-40 max-lg:left-[calc(50%-280px)] max-lg:w-290 max-md:bottom-147.5 max-md:left-[calc(50%-390px)];
   }
 
   /* END of Hero */
